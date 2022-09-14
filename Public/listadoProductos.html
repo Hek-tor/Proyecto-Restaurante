@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/listadoProductos.css">
+        <title>Listado de Platillos</title>
+    </head>
+
+    <body>
+        <main id="contenedorGlobal">
+            <a href="index.html" class="btnBack">Regresar</a>
+            <h1>Lista de nuestros productos</h1>
+            <section class="tableContainer">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre del Platillo</th>
+                            <th>Ingredientes</th>
+                            <th>Costo</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tblProduct">
+
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script src="js/utilities.js"></script>
+
+        <script src="js/services/listadoServices.js"></script>
+        <script src="js/controller/listadosController.js"></script>
+    </body>
+
+</html>

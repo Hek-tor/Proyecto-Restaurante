@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/registrarProducto.css">
+        <title>Registrar Productos</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Registrar Productos</h1>
+        </header>
+        <main>
+            <div class="containerMain">
+                <form action="#" class="menuOpciones">
+                    <input class="space" type="text" placeholder="Ingrese el nombre del plato">
+                    <input class="spaceNum" type="number" placeholder="Ingrese un costo sugerido">
+
+                    <div class="checkList">
+                        <legend>Seleccione los ingredientes principales:</legend>
+
+                        <div class="orderList">
+                            <label for="Lechuga">Lechuga</label>
+                            <input class="check" type="checkbox" id="Lechuga" value="Lechuga">
+                        </div>
+
+                        <div class="orderList">
+                            <label for="Pepinillos">Pepinillos</label>
+                            <input class="check" type="checkbox" id="Pepinillos" value="Pepinillos">
+                        </div>
+
+                        <div class="orderList">
+                            <label for="Tomate">Tomate</label>
+                            <input class="check" type="checkbox" id="Tomate" value="Tomate">
+                        </div>
+
+                        <div class="orderList">
+                            <label for="Tocino">Tocino</label>
+                            <input class="check" type="checkbox" id="Tocino" value="Tocino">
+                        </div>
+
+                        <div class="orderList">
+                            <label for="Especias">Especias</label>
+                            <input class="check" type="checkbox" id="Especias" value="Especias">
+                        </div>
+
+                        <div class="orderList">
+                            <label for="Mostaza">Mostaza</label>
+                            <input class="check" type="checkbox" id="Mostaza" value="Mostaza">
+                        </div>
+
+                        <div class="orderList">
+                            <label for="BBQ">BBQ</label>
+                            <input class="check" type="checkbox" id="BBQ" value="BBQ">
+                        </div>
+
+                        <div class="orderList">
+                            <label for="Salsa Bufalo">Salsa Bufalo</label>
+                            <input class="check" type="checkbox" id="Salsa Bufalo" value="Salsa Bufalo">
+                        </div>
+
+                        <div class="orderList">
+                            <label for="Aguacate">Aguacate</label>
+                            <input class="check" type="checkbox" id="Aguacate" value="Aguacate">
+                        </div>
+                        <div class="orderList">
+                            <label for="Torta de carne">Torta de carne</label>
+                            <input class="check" type="checkbox" id="Torta de carne" value="Torta de carne">
+                        </div>
+                        <button class="btnSend">Enviar</a>
+                    </div>
+                </form>
+            </div>
+            <div class="img">
+                <a href="index.html" class="btnBack">Regresar</a>
+            </div>
+        </main>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script src="js/utilities.js"></script>
+        <script src="js/services/registroServices.js"></script>
+        <script src="js/controller/registroController.js"></script>
+    </body>
+
+</html>

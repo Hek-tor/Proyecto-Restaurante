@@ -1,0 +1,58 @@
+*::selection {
+    background-color: #ff914d79;
+}
+
+#contenedorGlobal {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-top: 2%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 1em;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 8px 0px;
+    font-size: 1.1em;
+    box-shadow: 2px 2px 10px #ff914dfd;
+    border-radius: 50px;
+}
+
+.tableContainer th {
+    border-bottom: 2px solid #ff914dfd;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 2em 4.5em;
+    color: #7843E6;
+}
+
+.tableContainer td {
+    padding: 1em 5em;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.btnBack {
+    display: inline-block;
+    width: 115px;
+    height: 25px;
+    background: #65b6ca;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+
+}
