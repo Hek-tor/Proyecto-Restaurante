@@ -1,5 +1,4 @@
 # Proyecto-Restaurante
-Personal project where I apply knowledge in MongoDB, JavaScript and CSS
 
 //Español En este proyecto presento un landingPage para un restaurante, en donde los clientes puden registrar mediante un formulario validado en JS su cominda favorita. Luego guardo esos datos en MongoDB y posteriormete en la parte de listado se genera una tabla con la informacion almacenadaen la DB
 
